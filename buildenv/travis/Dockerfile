@@ -1,7 +1,7 @@
 # NOTE: This is not the real Docker image used for the Travis builds.
 #       See: https://docs.travis-ci.com/user/common-build-problems/
 
-FROM ubuntu:xenial
+FROM ubuntu:xenial-20210114
 
 # https://github.com/Yelp/dumb-init
 ADD https://github.com/Yelp/dumb-init/releases/download/v1.2.2/dumb-init_1.2.2_amd64.deb .
